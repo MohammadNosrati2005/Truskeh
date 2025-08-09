@@ -1,0 +1,174 @@
+﻿.BackgroundBody {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, #c1ccf8, #d6ddfa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Background {
+    width: 85%;
+    height: 95%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.Background1 {
+    background-color: #7d95f7;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.RegisterText1 {
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+.RegisterText2 {
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    margin-top: -15px;
+}
+
+.RegisterA {
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 3px solid #f0f0f0;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 200px;
+    height: 47px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginP {
+    color: rgb(50, 50, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.LoginUsername {
+    background-color: rgb(220, 220, 220);
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.LoginInputUsername {
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: rgb(220, 220, 220);
+    width: 380px;
+    height: 50px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.LoginPassword {
+    background-color: rgb(220, 220, 220);
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.LoginInputPassword {
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: rgb(220, 220, 220);
+    width: 380px;
+    height: 50px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.ForgotPassword {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+}
+
+.LoginButton {
+    background-color: #7d95f7;
+    color: #f0f0f0;
+    border: none;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding-bottom: 5px;
+}
+
+.LoginText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+
+.LoginIcon {
+    width: 270px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    border: 1px solid rgb(80, 80, 80);
+    width: 19%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

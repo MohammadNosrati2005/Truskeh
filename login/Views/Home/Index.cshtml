@@ -1,0 +1,238 @@
+﻿@model login.Models.User
+
+@{
+    Layout = null;
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truskeh</title>
+    <link rel="stylesheet" href="~/css/Truskeh.css">
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+
+
+    <div>
+        <div class="Navbar">
+            <a class="LogoTruskeh" href="/account/login">TRUSKEH</a>
+            <div>
+                <a class="TextNavbar" href="#">صفحه اصلی</a>
+                <a class="TextNavbar" href="#">نمونه کارها</a>
+                <a class="TextNavbar" href="#">تماس با ما</a>
+                <a class="TextNavbar" href="#">درباره ما</a>
+            </div>
+            <a class="TextNavbarConsulting" href="#">مشاوره رایگان</a>
+        </div>
+        <div class="FirstMiddle">
+            <div class="TextFirstMiddle">
+                <p class="TextFirstMiddleTruskehDesign">خدمات طراحی سایت تروسکه دیزاین</p>
+                <p class="TextFirstMiddleDigital">در فضای دیجیتال کسب و کارتان را توسعه دهید</p>
+                <p class="TextFirstMiddleExplanation">به دنیای از خلاقیت و ابتکار وارد شوید . جایی که هر آنچه تصور میکنید امکان پذیر است . هدف ما ارائه خدمات طراحی سایت حرفه ای برای شما است تا ابزارهای لازم برای رشد و توسعه کسب و کار شما را فراهم کنیم . با تروسکه دیزاین اولویت قدم برای دیده شدن و افزایش درآمد در فضای اینترنت را برداشته تا به دنیای از زیبایی و کارایی عمیق تر وارد شوید .</p>
+                <a class="TextFirstMiddleConsulting" href="#">دریافت مشاوره</a>
+                <a class="TextFirstMiddlePortfolio" href="#">نمونه کارها</a>
+            </div>
+            <div>
+                <img class="FirstMiddleImg" src="images/Untitled.jpg" alt="">
+            </div>
+        </div>
+        <div class="SecondMiddle">
+            <a class="SecondMiddleBox1" href="#">
+                <p class="SecondMiddleEmoji">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                    </svg>
+                </p>
+                <p class="SecondMiddleText">چرا به وب سایت نیاز داریم؟</p>
+                <p class="SecondMiddleTextExplanation">با داشتن وب سایت میتوانید کسب و کار خود را حرفه ای تر نشان داده و خدمات خود به مشتری را بهبود ببخشید.</p>
+            </a>
+            <a class="SecondMiddleBox2" href="#">
+                <p class="SecondMiddleEmoji">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </p>
+                <p class="SecondMiddleText">افزایش فروش</p>
+                <p class="SecondMiddleTextExplanation">در هر حوزه و کسب و کاری فروش خود را چندین برابر کنید.</p>
+            </a>
+            <a class="SecondMiddleBox3" href="#">
+                <p class="SecondMiddleEmoji">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z" />
+                    </svg>
+                </p>
+                <p class="SecondMiddleText">امکان فروش و حضور دائم</p>
+                <p class="SecondMiddleTextExplanation">محصولات خود را 24 ساعت در دید مشتری قرار دهید و بدون محدودیت زمانی بفروشید.</p>
+            </a>
+            <a class="SecondMiddleBox4" href="#">
+                <p class="SecondMiddleEmoji">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                    </svg>
+                </p>
+                <p class="SecondMiddleText">جذب مشتریان جدید</p>
+                <p class="SecondMiddleTextExplanation">با داشتن وب سایت برای کسب و کار خود مشتریان جدید را از سایر نقاط کشور جذب کنید.</p>
+            </a>
+        </div>
+        <div class="ThirdMiddle">
+            <div>
+                <img class="ThirdMiddleImg" src="image/1.webp" alt="">
+            </div>
+            <div class="ThirdMiddleText">
+                <p class="ThirdMiddleText1">مراحل خدمات طراحی سایت با تروسکه دیزاین</p>
+                <p class="ThirdMiddleText2">بیش از چندین کاربر راضی طراحی سایت با تروسکه دیزاین را تجربه کرده اند . شما هم می توانید همین حالا به این تجربه بپیوندید . تمام مراحل طراحی سایت با هم فکری شما انجام خواهد شد .</p>
+                <div class="ThirdMiddleText3">
+                    <p>&#128309 بررسی اهداف کسب و کار</p><br>
+                    <p>&#128309 ایجاد یک طرح اولیه</p><br>
+                    <p>&#128309 طراحی یک وایرفریم</p><br>
+                    <p>&#128309 طراحی سایت</p><br>
+                    <p>&#128309 تایید نهایی کارفرما</p>
+                </div>
+            </div>
+        </div>
+        <div class="FourthMiddle">
+            <div class="FourthMiddleTextTop">
+                <p>خدمات طراحی سایت تروسکه</p>
+            </div>
+            <div class="FourthMiddleBox">
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-lightning-charge" viewBox="0 0 16 16">
+                            <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41z" />
+                        </svg>
+                        رسپانسیو و موبایل فرندلی
+                    </p>
+                    <p class="FourthMiddleText2">با طراحی سایت به صورت رسپانسیو سایت شما روی تمامی دستگاه ها از جمله کامپیوتر لپ تاب و موبایل نمایش داده می شود.این کار باعث افزایش تجربه کاربری خواهد شد.</p>
+                </div>
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-leaf-fill" viewBox="0 0 16 16">
+                            <path d="M1.4 1.7c.217.289.65.84 1.725 1.274 1.093.44 2.885.774 5.834.528 2.02-.168 3.431.51 4.326 1.556C14.161 6.082 14.5 7.41 14.5 8.5q0 .344-.027.734C13.387 8.252 11.877 7.76 10.39 7.5c-2.016-.288-4.188-.445-5.59-2.045-.142-.162-.402-.102-.379.112.108.985 1.104 1.82 1.844 2.308 2.37 1.566 5.772-.118 7.6 3.071.505.8 1.374 2.7 1.75 4.292.07.298-.066.611-.354.715a.7.7 0 0 1-.161.042 1 1 0 0 1-1.08-.794c-.13-.97-.396-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.124-.887-1.889-2.095-2.39-3.383-1-2.562-1-5.536-.65-7.28L.73.806z" />
+                        </svg>
+                        رعایت نکات سئو تکنیکال
+                    </p>
+                    <p class="FourthMiddleText2">با انجام بهینه سازی سئو بر روی سایت شما شاهد افزایش شناخت برند خود در دنیای دیجیتال خواهید بود که این کار موجب افزایش اعتماد مشتریان و اعتبار شما خواهد شد.</p>
+                </div>
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
+                            <path d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z" />
+                            <path d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332q0 .613-.066 1.221A.5.5 0 0 1 6 8.447q.06-.555.06-1.115zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8m-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329" />
+                            <path d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334m.3 1.67a.5.5 0 0 1 .449.546 10.7 10.7 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.7 9.7 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z" />
+                            <path d="M3.902 4.222a5 5 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 4 4 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556m6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705M3.68 5.842a.5.5 0 0 1 .422.568q-.044.289-.044.59c0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.5 6.5 0 0 0 3.058 7q0-.375.054-.736a.5.5 0 0 1 .568-.422m8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.5 10.5 0 0 0 .584-2.678.5.5 0 0 1 .54-.456" />
+                            <path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865m-.89 1.257a.5.5 0 0 1 .04.706A5.48 5.48 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346m12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49" />
+                        </svg>
+                        امنیت و سرعت
+                    </p>
+                    <p class="FourthMiddleText2">با خدمات طراحی تروسکه دیزاین اطلاعات حساس شما به بهترین شکل محافظت می شود و با بهبود سرعت سایت افزایش ترافیک و کاهش نرخ پرش را تجربه خواهید کرد.</p>
+                </div>
+            </div>
+            <div class="FourthMiddleBox">
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z" />
+                            <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086z" />
+                        </svg>
+                        طراحی مدرن و کاربر پسند
+                    </p>
+                    <p class="FourthMiddleText2">ما با بهره گیری از اصول طراحی روز دنیا ، تجربه ای ساده ، زیبا و کاربردی برای کاربران خلق می کنیم.تمرکز ما روی طراحی هایی است که هم از نظر ظاهری جذاب باشند و هم استفاده از آن ها برای کاربر راحت و لذت بخش باشد.</p>
+                </div>
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        پشتیبانی سه ماهه رایگان
+                    </p>
+                    <p class="FourthMiddleText2">هر سرویسی از ما بگیری ، سه ماه پشتیبانی رایگان هم باهاشه ! اگه چیزی کار نکرد ، سوال داشتی یا کمک خواستی ، فقط یه پیام بده ما پشتتیم.</p>
+                </div>
+                <div class="FourthMiddleTextBox">
+                    <p class="FourthMiddleText1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0" />
+                        </svg>
+                        آموزش کار با سایت
+                    </p>
+                    <p class="FourthMiddleText2">تحویل سایت فقط اول راهه ! ما بهت یاد می دیم چطوری باهاش کار کنی ، از مدیریت صفحه ها گرفته تا گذاشتن محصول و نوشته . همه چی رو ساده و شفاف برات توضیح می دیم.</p>
+                </div>
+            </div>
+        </div>
+        <div class="FifthMiddle">
+            <div class="FifthMiddleTopText">
+                <p class="FifthMiddleTopText1">قیمت طراحی سایت در تروسکه</p>
+                <div class="FifthMiddleTopTextLine">
+                    <p>____________________</p>
+                    <p>____________________</p>
+                </div>
+            </div>
+            <div class="FifthMiddleText">
+                <div class="FifthMiddleTextBox">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15" />
+                        </svg>
+                    </p>
+                    <p class="FifthMiddleText1">پلن طراحی پایه <br> 6میلیون تومان </p>
+                    <a class="FifthMiddleTextA" href="#">درخواست مشاوره</a>
+                    <div class="FifthMiddleText2">
+                        <p>&#10003 طراحی متناسب با کسب و کار</p>
+                        <p>&#10003 طراحی صفحات اصلی</p>
+                        <p>&#10003 آموزش ویدیدیی کار با پنل</p>
+                        <p>&#10003 پشتیبانی یک ماهه</p>
+                        <p>&#10007 درج مقاله رایگان</p>
+                        <p>&#10007 بهینه سازی تصاویر</p>
+                        <p>&#10007 گفت و گوی آنلاین</p>
+                    </div>
+                </div>
+                <div class="FifthMiddleTextBoxBoth">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15" />
+                        </svg>
+                    </p>
+                    <p class="FifthMiddleTextBoth">پلن طراحی اختصاصی <br> 15میلیون تومان</p>
+                    <a class="FifthMiddleTextABoth" href="#">درخواست مشاوره</a>
+                    <div class="FifthMiddleText2Both">
+                        <p>&#10003 مشاوره رایگان و بررسی ایده شما</p>
+                        <p>&#10003 طراحی متناسب با کسب و کار</p>
+                        <p>&#10003 امکان طراحی قالب اختصاصی</p>
+                        <p>&#10003 طراحی تعدادی محصول</p>
+                        <p>&#10003 آموزش ویدیویی کار با پنل</p>
+                        <p>&#10003 بهینه سازی تصاویر</p>
+                        <p>&#10003 گفت و گوی آنلاین</p>
+                        <p>&#10003 درج دو مقاله رایگان</p>
+                        <p>&#10003 پشتیبانی شش ماهه</p>
+                    </div>
+                </div>
+                <div class="FifthMiddleTextBox">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15" />
+                        </svg>
+                    </p>
+                    <p class="FifthMiddleText1">پلن طراحی حرفه ای <br> 9میلیون تومان</p>
+                    <a class="FifthMiddleTextA" href="#">درخواست مشاوره</a>
+                    <div class="FifthMiddleText2">
+                        <p>&#10003 طراحی متناسب با کسب و کار</p>
+                        <p>&#10003 بهینه سازی تصاویر</p>
+                        <p>&#10003 آموزش ویدیویی کار با پنل</p>
+                        <p>&#10003 امکان پیاده سازی ایده شما</p>
+                        <p>&#10003 درج یک مقاله رایگان</p>
+                        <p>&#10003 گفت و گوی آنلاین</p>
+                        <p>&#10003 پشتیبانی سه ماهه</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
